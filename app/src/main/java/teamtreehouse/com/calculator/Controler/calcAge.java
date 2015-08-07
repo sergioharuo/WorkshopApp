@@ -9,11 +9,20 @@ public class calcAge {
     private int ageToDays;
     private int age;
 
+    public String TESTGIT;
+
+
     public int calculateAge(int age) {
 
     ageToMonths = age*12;
 
-   return ageToMonths;
+
+    TESTGIT = "22";
+
+
+    return ageToMonths;
+
+
    }
 
     public int ageToDays(int age) {
@@ -21,9 +30,12 @@ public class calcAge {
         ageToMonths = age*12*30;
 
         return ageToMonths;
+
+
+
     }
 
-    String TESTGIT;
+
 
 }
 
